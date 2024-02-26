@@ -1,13 +1,19 @@
 #!/bin/bash
 
-COST_PINEAPPLE=50
+Ananas=50 #nombre de Ananas
 
-COST_BANANA=4
+Banane=4 #nombre de banane 
 
-COST_WATERMELON=23
+Pasteque=23 #nombre de pastèque
 
-COST_BASKET=1
+Panier=1 #nombre de panier 
 
-TOTAL=$(($COST_PINEAPPLE + $COST_BANANA + $COST_WATERMELON + $COST_BASKET))
+TOTAL=$(($Ananas + $Banane + $Pasteque + $Panier))
 
-echo "Total Cost is $TOTAL"
+
+
+echo "Ananas = $Ananas"
+echo "Banane = $Banane"
+echo "Pastéque = $Pasteque"
+echo "panier = $Panier"
+echo "Le Total des opperations des somme des variables = $TOTAL"
